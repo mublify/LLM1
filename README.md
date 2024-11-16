@@ -1,14 +1,17 @@
-# Car Reviews Analysis Using NLP Pipelines
+# Chatbot Prototype with Hugging Face LLMs
 
-This project performs various NLP tasks on car reviews, including sentiment classification, translation, extractive question-answering, and summarization. It uses the Hugging Face Transformers library for implementing language models.
+This repository contains code for prototyping a multi-functional chatbot application that uses various pre-trained Hugging Face Large Language Models (LLMs) to respond to user prompts across different tasks.
 
-## Requirements
+## Features
 
-- pandas
-- torch
-- transformers
-- evaluate
+* Sentiment Analysis: Classify text reviews as positive or negative
+* Question Answering: Provide answers to customer questions based on given context
+* Text Summarization: Generate concise summaries of longer texts
+* Translation: Translate text between English and Spanish
 
-Install the required packages using:
-```bash
-pip install pandas torch transformers evaluate
+## Usage
+
+The chatbot will respond to user input with results from various LLM-based tasks. It serves as a starting point for developing a comprehensive chatbot application using Hugging Face's pre-trained models. The power of these language models can be leveraged to create intelligent conversational AI systems with multiple functionalities.
+
+## Evaluation Metrics
+The prototype includes evaluation metrics for sentiment analysis accuracy and BLEU score for translation tasks.
